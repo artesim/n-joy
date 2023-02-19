@@ -1,0 +1,37 @@
+# See https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+# and https://packaging.python.org/en/latest/specifications/declaring-project-metadata/
+[project]
+name = "n-joy"
+authors = [
+    {name = "Artesim", email = "artesim1852@gmail.com"}
+]
+description = "n-joy is a python library allowing you to design smarter joystick bindings. It is an alternative approach to the excellent Joystick Gremlin program, with a strong emphasis on game state awareness."
+readme = "README.md"
+requires-python = ">=3.11"
+keywords = ["vjoy", "joystick", "HID", "device", "game state", "script engine", "mapping", "binding", "simulation", "elite dangerous", "star citizen", "x-plane", "flight simulator"]
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment",
+    "Topic :: Games/Entertainment :: Simulation",
+    "Topic :: System :: Hardware :: Universal Serial Bus (USB) :: Human Interface Device (HID)",
+    "Topic :: Utilities"
+]
+dependencies = [
+    "PySide6>=6.4.2",
+    "PySDL2>=0.9.15",
+    "pysdl2-dll>=2.26.2",
+    "pyvjoy>=1.0.1"
+]
+dynamic = ["version"]
+
+[project.urls]
+homepage = "http://n-joy.io"
+repository = "https://github.com/artesim/n-joy"
+
+[tool.setuptools.dynamic]
+version = {attr = "njoy.version.VERSION"}
