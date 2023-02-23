@@ -22,10 +22,12 @@ classifiers = [
     "Topic :: Utilities"
 ]
 dependencies = [
+    "lxml>=4.9.2",
     "PySide6>=6.4.2",
     "PySDL2>=0.9.15",
     "pysdl2-dll>=2.26.2",
-    "pyvjoy>=1.0.1"
+    "pyvjoy>=1.0.1",
+    "semver>=2.13.0"
 ]
 dynamic = ["version"]
 
