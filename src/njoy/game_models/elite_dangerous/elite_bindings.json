@@ -1,0 +1,1976 @@
+{
+    "njoy_version": ">=0.1.0",
+    "game_version": ">=4.0.0",
+    "general": {
+        "camera_suite": {
+            "PhotoCameraToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "PhotoCameraToggle_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "PhotoCameraToggle_Humanoid": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ToggleFreeCam": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraEight": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraFive": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraFour": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraNine": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraOne": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraScrollLeft": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraScrollRight": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraSeven": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraSix": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraTen": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraThree": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VanityCameraTwo": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "free_camera": {
+            "FStopDec": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "FStopInc": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "FixCameraRelativeToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "FixCameraWorldToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "FreeCamSpeedDec": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "FreeCamSpeedInc": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "FreeCamToggleHUD": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "FreeCamZoomIn": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "FreeCamZoomOut": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "MoveFreeCamBackwards": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MoveFreeCamDown": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MoveFreeCamDownAxis": {
+                "is_button": false
+            },
+            "MoveFreeCamForward": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MoveFreeCamLeft": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MoveFreeCamRight": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MoveFreeCamUp": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MoveFreeCamUpAxis": {
+                "is_button": false
+            },
+            "MoveFreeCamX": {
+                "is_button": false
+            },
+            "MoveFreeCamY": {
+                "is_button": false
+            },
+            "MoveFreeCamZ": {
+                "is_button": false
+            },
+            "PitchCamera": {
+                "is_button": false
+            },
+            "PitchCameraDown": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "PitchCameraUp": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "QuitCamera": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "RollCamera": {
+                "is_button": false
+            },
+            "RollCameraLeft": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "RollCameraRight": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "ToggleAdvanceMode": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ToggleReverseThrottleInputFreeCam": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ToggleRotationLock": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "YawCamera": {
+                "is_button": false
+            },
+            "YawCameraLeft": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "YawCameraRight": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            }
+        },
+        "galaxy_map": {
+            "CamPitchAxis": {
+                "is_button": false
+            },
+            "CamPitchDown": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamPitchUp": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamTranslateBackward": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamTranslateDown": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamTranslateForward": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamTranslateLeft": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamTranslateRight": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamTranslateUp": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamTranslateXAxis": {
+                "is_button": false
+            },
+            "CamTranslateYAxis": {
+                "is_button": false
+            },
+            "CamTranslateZAxis": {
+                "is_button": false
+            },
+            "CamTranslateZHold": {
+                "has_hold_mode": true,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamYawAxis": {
+                "is_button": false
+            },
+            "CamYawLeft": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamYawRight": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamZoomAxis": {
+                "is_button": false
+            },
+            "CamZoomIn": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "CamZoomOut": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "GalaxyMapHome": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "holo_me": {
+            "CommanderCreator_Redo": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "CommanderCreator_Rotation": {
+                "is_button": false
+            },
+            "CommanderCreator_Rotation_MouseToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "CommanderCreator_Undo": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "interface_mode": {
+            "CycleNextPage": {
+                "has_hold_mode": false,
+                "is_button": true
+            },
+            "CycleNextPanel": {
+                "has_hold_mode": false,
+                "is_button": true
+            },
+            "CyclePreviousPage": {
+                "has_hold_mode": false,
+                "is_button": true
+            },
+            "CyclePreviousPanel": {
+                "has_hold_mode": false,
+                "is_button": true
+            },
+            "UI_Back": {
+                "has_hold_mode": false,
+                "is_button": true
+            },
+            "UI_Down": {
+                "has_hold_mode": false,
+                "is_button": true
+            },
+            "UI_Left": {
+                "has_hold_mode": false,
+                "is_button": true
+            },
+            "UI_Right": {
+                "has_hold_mode": false,
+                "is_button": true
+            },
+            "UI_Select": {
+                "has_hold_mode": false,
+                "is_button": true
+            },
+            "UI_Toggle": {
+                "has_hold_mode": false,
+                "is_button": true
+            },
+            "UI_Up": {
+                "has_hold_mode": false,
+                "is_button": true
+            }
+        },
+        "playlist": {
+            "GalnetAudio_ClearQueue": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "GalnetAudio_Play_Pause": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "GalnetAudio_SkipBackward": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "GalnetAudio_SkipForward": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "store_camera": {
+            "StoreCamZoomIn": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "StoreCamZoomOut": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "StoreEnableRotation": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "StorePitchCamera": {
+                "is_button": false
+            },
+            "StoreToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "StoreYawCamera": {
+                "is_button": false
+            }
+        }
+    },
+    "on_foot": {
+        "on_foot": {
+            "HumanoidBackwardButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidBattery": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidClearAuthorityLevel": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidCrouchButton": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidEmoteSlot1": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidEmoteSlot2": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidEmoteSlot3": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidEmoteSlot4": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidEmoteSlot5": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidEmoteSlot6": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidEmoteSlot7": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidEmoteSlot8": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidEmoteWheelButton": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidForwardAxis": {
+                "is_button": false
+            },
+            "HumanoidForwardButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidHealthPack": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidHideWeaponButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidItemWheelButton": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidItemWheelButton_XAxis": {
+                "is_button": false
+            },
+            "HumanoidItemWheelButton_XLeft": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidItemWheelButton_XRight": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidItemWheelButton_YAxis": {
+                "is_button": false
+            },
+            "HumanoidItemWheelButton_YDown": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidItemWheelButton_YUp": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidJumpButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidMeleeButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidOpenAccessPanelButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidPing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidPitchAxis": {
+                "is_button": false
+            },
+            "HumanoidPitchDownButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidPitchUpButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidPrimaryFireButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidPrimaryInteractButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidReloadButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidRotateAxis": {
+                "is_button": false
+            },
+            "HumanoidRotateLeftButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidRotateRightButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSecondaryInteractButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSelectEMPGrenade": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSelectFragGrenade": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSelectNextGrenadeTypeButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSelectNextWeaponButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSelectPreviousGrenadeTypeButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSelectPreviousWeaponButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSelectPrimaryWeaponButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSelectSecondaryWeaponButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSelectShieldGrenade": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSelectUtilityWeaponButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSprintButton": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidStrafeAxis": {
+                "is_button": false
+            },
+            "HumanoidStrafeLeftButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidStrafeRightButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSwitchToCompAnalyser": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSwitchToRechargeTool": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSwitchToSuitTool": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidSwitchWeapon": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidThrowGrenadeButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidToggleFlashlightButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.LIGHTS_ON",
+                "is_button": true
+            },
+            "HumanoidToggleMissionHelpPanelButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidToggleNightVisionButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.NIGHT_VISION",
+                "is_button": true
+            },
+            "HumanoidToggleShieldsButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidToggleToolModeButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidUtilityWheelCycleMode": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidWalkButton": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HumanoidZoomButton": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "on_foot_miscellaneous": {},
+        "on_foot_mode_emotes": {},
+        "on_foot_mode_switches": {
+            "FocusCommsPanel_Humanoid": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.COMMS_PANEL",
+                "is_button": true
+            },
+            "GalaxyMapOpen_Humanoid": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.GALAXY_MAP",
+                "is_button": true
+            },
+            "HumanoidConflictContextualUIButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "QuickCommsPanel_Humanoid": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SystemMapOpen_Humanoid": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.SYSTEM_MAP",
+                "is_button": true
+            }
+        }
+    },
+    "ship": {
+        "alternate_flight_controls": {
+            "LateralThrustAlternate": {
+                "is_button": false
+            },
+            "PitchAxisAlternate": {
+                "is_button": false
+            },
+            "RollAxisAlternate": {
+                "is_button": false
+            },
+            "UseAlternateFlightValuesToggle": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "VerticalThrustAlternate": {
+                "is_button": false
+            },
+            "YawAxisAlternate": {
+                "is_button": false
+            }
+        },
+        "cooling": {
+            "DeployHeatSink": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ToggleButtonUpInput": {
+                "alternate_names": [
+                    "silent_running"
+                ],
+                "has_hold_mode": true,
+                "game_feedback": "StatusFlags.SILENT_RUNNING",
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "dss": {
+            "ExplorationSAAChangeScannedAreaViewToggle": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ExplorationSAAExitThirdPerson": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ExplorationSAANextGenus": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ExplorationSAAPreviousGenus": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ExplorationSAAShowHelp": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SAAThirdPersonFovAxisRaw": {
+                "is_button": false
+            },
+            "SAAThirdPersonFovInButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "SAAThirdPersonFovOutButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "SAAThirdPersonPitchAxisRaw": {
+                "is_button": false
+            },
+            "SAAThirdPersonPitchDownButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "SAAThirdPersonPitchUpButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "SAAThirdPersonYawAxisRaw": {
+                "is_button": false
+            },
+            "SAAThirdPersonYawLeftButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "SAAThirdPersonYawRightButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            }
+        },
+        "fighter_orders": {
+            "OpenOrders": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "OrderAggressiveBehaviour": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "OrderDefensiveBehaviour": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "OrderFocusTarget": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "OrderFollow": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "OrderHoldFire": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "OrderHoldPosition": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "OrderRequestDock": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "flight_landing_overrides": {
+            "AheadThrust_Landing": {
+                "is_button": false
+            },
+            "BackwardThrustButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "DownThrustButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "ForwardThrustButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "LateralThrust_Landing": {
+                "is_button": false
+            },
+            "LeftThrustButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "PitchAxis_Landing": {
+                "is_button": false
+            },
+            "PitchDownButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "PitchUpButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "RightThrustButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "RollAxis_Landing": {
+                "is_button": false
+            },
+            "RollLeftButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "RollRightButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "UpThrustButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "VerticalThrust_Landing": {
+                "is_button": false
+            },
+            "YawAxis_Landing": {
+                "is_button": false
+            },
+            "YawLeftButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "YawRightButton_Landing": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            }
+        },
+        "flight_miscellaneous": {
+            "DisableRotationCorrectToggle": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HyperSuperCombination": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "Hyperspace": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "OrbitLinesToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "Supercruise": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ToggleFlightAssist": {
+                "alternate_names": ["flight_assist_off"],
+                "has_hold_mode": true,
+                "game_feedback": "StatusFlags.FLIGHT_ASSIST_OFF",
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "UseBoostJuice": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "flight_rotation": {
+            "PitchAxisRaw": {
+                "is_button": false
+            },
+            "PitchDownButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "PitchUpButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "RollAxisRaw": {
+                "is_button": false
+            },
+            "RollLeftButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "RollRightButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "YawAxisRaw": {
+                "is_button": false
+            },
+            "YawLeftButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "YawRightButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "YawToRollButton": {
+                "has_hold_mode": true,
+                "is_axis_alternative": true,
+                "is_button": true
+            }
+        },
+        "flight_throttle": {
+            "BackwardKey": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ForwardKey": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SetSpeed100": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SetSpeed25": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SetSpeed50": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SetSpeed75": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SetSpeedMinus100": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SetSpeedMinus25": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SetSpeedMinus50": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SetSpeedMinus75": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SetSpeedZero": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ThrottleAxis": {
+                "is_button": false
+            },
+            "ToggleReverseThrottleInput": {
+                "has_hold_mode": true,
+                "is_axis_alternative": true,
+                "is_button": true
+            }
+        },
+        "flight_thrust": {
+            "AheadThrust": {
+                "is_button": false
+            },
+            "BackwardThrustButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "DownThrustButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "ForwardThrustButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "LateralThrustRaw": {
+                "is_button": false
+            },
+            "LeftThrustButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "RightThrustButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "UpThrustButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "VerticalThrustRaw": {
+                "is_button": false
+            }
+        },
+        "fss": {
+            "ExplorationFSSCameraPitch": {
+                "is_button": false
+            },
+            "ExplorationFSSCameraPitchDecreaseButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "ExplorationFSSCameraPitchIncreaseButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "ExplorationFSSCameraYaw": {
+                "is_button": false
+            },
+            "ExplorationFSSCameraYawDecreaseButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "ExplorationFSSCameraYawIncreaseButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "ExplorationFSSDiscoveryScan": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ExplorationFSSMiniZoomIn": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ExplorationFSSMiniZoomOut": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ExplorationFSSQuit": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ExplorationFSSRadioTuningAbsoluteX": {
+                "is_button": false
+            },
+            "ExplorationFSSRadioTuningX_Decrease": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "ExplorationFSSRadioTuningX_Increase": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "ExplorationFSSRadioTuningX_Raw": {
+                "is_button": false
+            },
+            "ExplorationFSSShowHelp": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ExplorationFSSTarget": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ExplorationFSSZoomIn": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ExplorationFSSZoomOut": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "headlook_mode": {
+            "HeadLookPitchAxisRaw": {
+                "is_button": false
+            },
+            "HeadLookPitchDown": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "HeadLookPitchUp": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "HeadLookReset": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HeadLookYawAxis": {
+                "is_button": false
+            },
+            "HeadLookYawLeft": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "HeadLookYawRight": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            }
+        },
+        "miscellaneous": {
+            "ChargeECM": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "EjectAllCargo": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "EngineColourToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "FireChaffLauncher": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HMDReset": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "IncreaseEnginesPower": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "PipController.ENGINES",
+                "is_button": true
+            },
+            "IncreaseSystemsPower": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "PipController.SYSTEMS",
+                "is_button": true
+            },
+            "IncreaseWeaponsPower": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "PipController.WEAPONS",
+                "is_button": true
+            },
+            "LandingGearToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.LANDING_GEAR_DOWN",
+                "is_button": true
+            },
+            "MicrophoneMute": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "NightVisionToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.NIGHT_VISION",
+                "is_button": true
+            },
+            "RadarDecreaseRange": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "RadarIncreaseRange": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "RadarRangeAxis": {
+                "is_button": false
+            },
+            "ResetPowerDistribution": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "PipController.RESET",
+                "is_button": true
+            },
+            "ShipSpotLightToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.LIGHTS_ON",
+                "is_button": true
+            },
+            "ToggleCargoScoop": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.CARGO_SCOOP_DEPLOYED",
+                "is_button": true
+            },
+            "TriggerFieldNeutraliser": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "UseShieldCell": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "WeaponColourToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "mode_switches": {
+            "ExplorationFSSEnter": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.FSS_MODE",
+                "is_button": true
+            },
+            "FocusCommsPanel": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.COMMS_PANEL",
+                "is_button": true
+            },
+            "FocusLeftPanel": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.EXTERNAL_PANEL",
+                "is_button": true
+            },
+            "FocusRadarPanel": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.ROLE_PANEL",
+                "is_button": true
+            },
+            "FocusRightPanel": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.INTERNAL_PANEL",
+                "is_button": true
+            },
+            "FriendsMenu": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "GalaxyMapOpen": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.GALAXY_MAP",
+                "is_button": true
+            },
+            "HeadLookToggle": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "OpenCodexGoToDiscovery": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.CODEX",
+                "is_button": true
+            },
+            "Pause": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "PlayerHUDModeToggle": {
+                "alternate_names": [
+                    "combat_mode",
+                    "analysis_mode"
+                ],
+                "has_hold_mode": false,
+                "game_feedback": "StatusFlags.HUD_IN_ANALYSIS_MODE",
+                "is_button": true
+            },
+            "QuickCommsPanel": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ShowPGScoreSummaryInput": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SystemMapOpen": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.SYSTEM_MAP",
+                "is_button": true
+            },
+            "UIFocus": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "mouse_controls": {
+            "MouseReset": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "multi_crew": {
+            "MultiCrewCockpitUICycleBackward": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "MultiCrewCockpitUICycleForward": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "MultiCrewPrimaryFire": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "MultiCrewPrimaryUtilityFire": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "MultiCrewSecondaryFire": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "MultiCrewSecondaryUtilityFire": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "MultiCrewThirdPersonFovAxisRaw": {
+                "is_button": false
+            },
+            "MultiCrewThirdPersonFovInButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MultiCrewThirdPersonFovOutButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MultiCrewThirdPersonPitchAxisRaw": {
+                "is_button": false
+            },
+            "MultiCrewThirdPersonPitchDownButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MultiCrewThirdPersonPitchUpButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MultiCrewThirdPersonYawAxisRaw": {
+                "is_button": false
+            },
+            "MultiCrewThirdPersonYawLeftButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MultiCrewThirdPersonYawRightButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "MultiCrewToggleMode": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "targeting": {
+            "CycleNextHostileTarget": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "CycleNextSubsystem": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "CycleNextTarget": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "CyclePreviousHostileTarget": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "CyclePreviousSubsystem": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "CyclePreviousTarget": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SelectHighestThreat": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SelectTarget": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SelectTargetsTarget": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "TargetNextRouteSystem": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "TargetWingman0": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "TargetWingman1": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "TargetWingman2": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "WingNavLock": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "weapons": {
+            "CycleFireGroupNext": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "FireGroupsController.NEXT",
+                "is_button": true
+            },
+            "CycleFireGroupPrevious": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "FireGroupsController.PREVIOUS",
+                "is_button": true
+            },
+            "DeployHardpointToggle": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.HARDPOINTS_DEPLOYED",
+                "is_button": true
+            },
+            "PrimaryFire": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SecondaryFire": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        }
+    },
+    "srv": {
+        "drive_throttle": {
+            "BuggyToggleReverseThrottleInput": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "DecreaseSpeedButtonMax": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "DecreaseSpeedButtonPartial": {
+                "is_button": false
+            },
+            "DriveSpeedAxis": {
+                "is_button": false
+            },
+            "IncreaseSpeedButtonMax": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "IncreaseSpeedButtonPartial": {
+                "is_button": false
+            }
+        },
+        "driving": {
+            "AutoBreakBuggyButton": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.SRV_HANDBRAKE",
+                "is_button": true
+            },
+            "BuggyCycleFireGroupNext": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "FireGroupsController.NEXT",
+                "is_button": true
+            },
+            "BuggyCycleFireGroupPrevious": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "FireGroupsController.PREVIOUS",
+                "is_button": true
+            },
+            "BuggyPitchAxis": {
+                "is_button": false
+            },
+            "BuggyPitchDownButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "BuggyPitchUpButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "BuggyPrimaryFireButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "BuggyRollAxisRaw": {
+                "is_button": false
+            },
+            "BuggyRollLeftButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "BuggyRollRightButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "BuggySecondaryFireButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "HeadlightsBuggyButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.LIGHTS_ON",
+                "is_button": true
+            },
+            "SteerLeftButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "SteerRightButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "SteeringAxis": {
+                "is_button": false
+            },
+            "ToggleBuggyTurretButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.SRV_USING_TURRET_VIEW",
+                "is_button": true
+            },
+            "ToggleDriveAssist": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.SRV_DRIVE_ASSIST",
+                "is_button": true
+            },
+            "VerticalThrustersButton": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "driving_miscellaneous": {
+            "EjectAllCargo_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "IncreaseEnginesPower_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "PipController.POWER",
+                "is_button": true
+            },
+            "IncreaseSystemsPower_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "PipController.SYSTEMS",
+                "is_button": true
+            },
+            "IncreaseWeaponsPower_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "PipController.WEAPONS",
+                "is_button": true
+            },
+            "RecallDismissShip": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "ResetPowerDistribution_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "PipController.RESET",
+                "is_button": true
+            },
+            "ToggleCargoScoop_Buggy": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.CARGO_SCOOP_DEPLOYED",
+                "is_button": true
+            }
+        },
+        "driving_mode_switches": {
+            "FocusCommsPanel_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.COMMS_PANEL",
+                "is_button": true
+            },
+            "FocusLeftPanel_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.EXTERNAL_PANEL",
+                "is_button": true
+            },
+            "FocusRadarPanel_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.ROLE_PANEL",
+                "is_button": true
+            },
+            "FocusRightPanel_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.INTERNAL_PANEL",
+                "is_button": true
+            },
+            "GalaxyMapOpen_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.GALAXY_MAP",
+                "is_button": true
+            },
+            "HeadLookToggle_Buggy": {
+                "has_hold_mode": true,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "OpenCodexGoToDiscovery_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.CODEX",
+                "is_button": true
+            },
+            "PlayerHUDModeToggle_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "StatusFlags.HUD_IN_ANALYSIS_MODE",
+                "is_button": true
+            },
+            "QuickCommsPanel_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            },
+            "SystemMapOpen_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "game_feedback": "GuiFocus.SYSTEM_MAP",
+                "is_button": true
+            },
+            "UIFocus_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "driving_targeting": {
+            "SelectTarget_Buggy": {
+                "has_hold_mode": false,
+                "is_axis_alternative": false,
+                "is_button": true
+            }
+        },
+        "driving_turret_controls": {
+            "BuggyTurretPitchAxisRaw": {
+                "is_button": false
+            },
+            "BuggyTurretPitchDownButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "BuggyTurretPitchUpButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "BuggyTurretYawAxisRaw": {
+                "is_button": false
+            },
+            "BuggyTurretYawLeftButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            },
+            "BuggyTurretYawRightButton": {
+                "has_hold_mode": false,
+                "is_axis_alternative": true,
+                "is_button": true
+            }
+        }
+    }
+}
